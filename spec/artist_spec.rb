@@ -1,9 +1,9 @@
-require "spec_helper"
+require_relative "song.rb"
+class Artist
+    attr_accessor :name
 
-describe "Artist" do 
-  it "has a name" do
-    artist = Artist.new
-    artist.name = "Beyonce" 
-    expect(artist.name).to eq("Beyonce")
-  end
+    def initialize
+        @name = "Beyonce"
+    end
+
 end
