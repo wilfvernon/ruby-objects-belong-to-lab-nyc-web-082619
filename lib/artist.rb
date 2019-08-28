@@ -5,5 +5,4 @@ class Artist
     def initialize
         @name = "Beyonce"
     end
-
 end
