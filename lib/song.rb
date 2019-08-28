@@ -6,5 +6,4 @@ class Song
     @title = '7/11'
     self.artist = Artist.name
   end
-  
 end
